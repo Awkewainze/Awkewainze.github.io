@@ -1,0 +1,60 @@
+.profile-pic {
+    /* filter: blur(1px); */
+}
+
+body {
+    background-image: url("../resources/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav-wrapper .container, 
+.nav-wrapper .container .row {
+    height: 100%;
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    height: 100%
+}
+
+.white-text-black-outline {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.right-align {
+    justify-content: flex-end
+}
+
+.collection-item {
+    color: #616161
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 300px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.semi-transparent {
+    opacity: 0.85;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
