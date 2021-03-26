@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!-- Built entirely from scratch -->
 <!-- and jQuery, FontAwesome, Materialize, and this cool Github activity stream https://github.com/caseyscarborough/github-activity -->
@@ -6,57 +5,72 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="description" content="Personal/Professional Site for Nova Walseth" />
-    <meta NAME="author" content="Nova Walseth">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
-    <meta http-equiv="Pragma" content="no-cache"/>
-    <meta http-equiv="Expires" content="0"/>
+    <meta name="author" content="Nova Walseth" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 
     <title>Nova Walseth B.S. Software Engineering</title>
-    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous" max-age=86400></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css" max-age=86400>
-    <link rel="stylesheet" href="styles/github-activity-0.1.4.min.css" max-age=86400>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js" max-age=86400></script>
-    <script type="text/javascript" src="scripts/github-activity-0.1.4.min.js" max-age=86400></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" max-age=86400>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js" max-age=86400></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/custom.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"
+        max-age="86400"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css"
+        max-age="86400" />
+    <link rel="stylesheet" href="styles/github-activity-0.1.4.min.css" max-age="86400" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"
+        max-age="86400"></script>
+    <script type="text/javascript" src="scripts/github-activity-0.1.4.min.js" max-age="86400"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"
+        max-age="86400" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"
+        max-age="86400"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing%20Script|Raleway&effect=neon">
+    <link rel="stylesheet" href="./styles/custom.css" />
 
-    <style>
-
-    </style>
+    <style></style>
     <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
+        (function (i, s, o, g, r, a, m) {
+            i["GoogleAnalyticsObject"] = r;
+            (i[r] =
+                i[r] ||
+                function () {
+                    (i[r].q = i[r].q || []).push(arguments);
+                }),
+                (i[r].l = 1 * new Date());
+            (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
             a.async = 1;
             a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            m.parentNode.insertBefore(a, m);
+        })(
+            window,
+            document,
+            "script",
+            "https://www.google-analytics.com/analytics.js",
+            "ga"
+        );
 
-        ga('create', 'UA-84941217-1', 'auto');
-        ga('send', 'pageview');
+        ga("create", "UA-84941217-1", "auto");
+        ga("send", "pageview");
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js" integrity="sha256-CutOzxCRucUsn6C6TcEYsauvvYilEniTXldPa6/wu0k=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.20/moment-timezone-with-data.min.js" integrity="sha256-VbgTHb5lNUXSO3dpUopgsh61ITkA7UBADWrQvcaj/vY=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"
+        integrity="sha256-CutOzxCRucUsn6C6TcEYsauvvYilEniTXldPa6/wu0k=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.20/moment-timezone-with-data.min.js"
+        integrity="sha256-VbgTHb5lNUXSO3dpUopgsh61ITkA7UBADWrQvcaj/vY=" crossorigin="anonymous"></script>
     <script src="scripts/custom.js" charset="utf-8"></script>
 </head>
 
 <body class="grey lighten-1">
-    <nav class="blue-grey darken-3 semi-transparent">
+    <nav class="blue-grey darken-4 semi-transparent">
         <div class="nav-wrapper">
             <div class="container">
                 <div class="row">
                     <div class="col s12 headline">
-                        <h3 class="white-text">Nova Walseth</h3>
-                        <p class="white-text right-align">🏳️‍🌈 She/Her/They/Them</p>
+                        <h3 class="white-text name">Nova Walseth</h3>
                     </div>
                 </div>
             </div>
@@ -67,11 +81,16 @@
             <div class="col l4 s12">
                 <div class="card blue-grey darken-3">
                     <div class="card-image">
-                        <img class="profile-pic" src="resources/profile-pic.png" alt="Profile Picture">
+                        <img class="profile-pic" src="resources/profile-pic.png" alt="Profile Picture" />
                         <span class="card-title white-text-black-outline">About me</span>
                     </div>
                     <div class="card-content">
-                        <p class="white-text">Software Engineer born and raised in South East Wisconsin</p>
+
+                        <p class="white-text">🏳️‍🌈 Pronouns are She/Her or They/Them</p>
+                        <p class="white-text">
+                            I am a software engineer born and raised in southeast Wisconsin and am currently living in
+                            Sunnyvale, California.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -80,8 +99,8 @@
                     <div class="card-content white-text">
                         <span class="card-title">My Resume</span>
                         <object data="resources/Resume.pdf" type="application/pdf" width="100%" height="445px">
-                        <p><a href="resources/Resume.pdf">Direct link to the PDF</a></p>
-                    </object>
+                        </object>
+                        <p><a href="resources/Resume.pdf">Direct Link to the PDF</a></p>
                     </div>
                 </div>
             </div>
@@ -91,7 +110,9 @@
                 <div class="card blue-grey darken-3 semi-transparent">
                     <div class="card-content white-text">
                         <span class="card-title">My schedule</span>
-                        <iframe src="https://calendar.google.com/calendar/embed?src=nova%40walseth.com&ctz=America/LosAngeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                        <iframe
+                            src="https://calendar.google.com/calendar/embed?src=nova%40walseth.com&ctz=America/LosAngeles"
+                            style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                     </div>
                 </div>
 
@@ -99,47 +120,60 @@
                     <div class="card-content">
                         <span class="card-title white-text">Education</span>
                         <div class="grid-container">
-                          <div class="grid-item">
-                            <p class="white-text">Milwaukee School of Engineering</p>
-                            <p class="white-text">B.S. Software Engineering</p>
-                            <p class="white-text">Class of 2017</p>
-                          </div>
-                          <div class="grid-item"></div>
-                          <div class="grid-item right-align">
-                            <a href="https://www.msoe.edu/">
-                              <img src="resources/msoe_logo.png" alt="" height="70px" style="padding-right: 10px">
-                            </a>
-                          </div>
+                            <div class="grid-item">
+                                <p class="white-text">Milwaukee School of Engineering</p>
+                                <p class="white-text">B.S. Software Engineering</p>
+                                <p class="white-text">Class of 2017</p>
+                            </div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item right-align">
+                                <a href="https://www.msoe.edu/">
+                                    <img src="resources/msoe_logo.png" alt="" height="70px"
+                                        style="padding-right: 10px" />
+                                </a>
+                            </div>
                         </div>
                         <div class="spacer">&nbsp;</div>
                         <ul class="collapsible">
-                          <li>
-                            <div class="collapsible-header">
-                              <p>List of courses completed</p>
-                            </div>
-                            <div class="collapsible-body">
-                              <ul class="collection">
-                                  <li class="collection-item">Data Structures</li>
-                                  <li class="collection-item">Algorithms</li>
-                                  <li class="collection-item">Software Tools and Practices</li>
-                                  <li class="collection-item">Machine Learning</li>
-                                  <li class="collection-item">C# and Programming Language Design</li>
-                                  <li class="collection-item">Software Development I - III</li>
-                                  <li class="collection-item">Web Applications</li>
-                                  <li class="collection-item">Computer Organization</li>
-                                  <li class="collection-item">Real-Time Systems</li>
-                                  <li class="collection-item">Calculus I - III</li>
-                                  <li class="collection-item">Physics I - III</li>
-                                  <li class="collection-item">Software Engineering Process</li>
-                                  <li class="collection-item">Software Requirements and Specifications</li>
-                                  <li class="collection-item">Software Architecture</li>
-                                  <li class="collection-item">Network Protocols</li>
-                                  <li class="collection-item">Introduction to Software Verification</li>
-                                  <li class="collection-item">Introduction to Databases</li>
-                                  <li class="collection-item">Managing Linux OS</li>
-                              </ul>
-                            </div>
-                          </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    <p>List of courses completed</p>
+                                </div>
+                                <div class="collapsible-body">
+                                    <ul class="collection">
+                                        <li class="collection-item">Data Structures</li>
+                                        <li class="collection-item">Algorithms</li>
+                                        <li class="collection-item">
+                                            Software Tools and Practices
+                                        </li>
+                                        <li class="collection-item">Machine Learning</li>
+                                        <li class="collection-item">
+                                            C# and Programming Language Design
+                                        </li>
+                                        <li class="collection-item">
+                                            Software Development I - III
+                                        </li>
+                                        <li class="collection-item">Web Applications</li>
+                                        <li class="collection-item">Computer Organization</li>
+                                        <li class="collection-item">Real-Time Systems</li>
+                                        <li class="collection-item">Calculus I - III</li>
+                                        <li class="collection-item">Physics I - III</li>
+                                        <li class="collection-item">
+                                            Software Engineering Process
+                                        </li>
+                                        <li class="collection-item">
+                                            Software Requirements and Specifications
+                                        </li>
+                                        <li class="collection-item">Software Architecture</li>
+                                        <li class="collection-item">Network Protocols</li>
+                                        <li class="collection-item">
+                                            Introduction to Software Verification
+                                        </li>
+                                        <li class="collection-item">Introduction to Databases</li>
+                                        <li class="collection-item">Managing Linux OS</li>
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -147,37 +181,70 @@
                     <div class="card-content">
                         <span class="card-title white-text">Work Experience</span>
                         <ul class="collapsible">
-                          <li>
-                            <div class="collapsible-header">
-                              SOFTWARE ENGINEER | BRADY CORPORATION | AUGUST 2017 – PRESENT
-                            </div>
-                            <div class="collapsible-body">
-                              <p class="white-text">
-                                Contributed to a Cloud Based (Azure) Inspection and Asset Tracking platform (mobile and web app). I added several new services and features to the platform using Azure Functions, Service Bus, Cosmos DB, and other Azure features. Most of the application was written in C#, Typescript, and Angular, but I also worked on independent projects using React and Vue with NodeJS backend such as a configurable mock API designed for easy client-side testing.
-
-                              </p>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="collapsible-header">
-                              SOFTWARE ENGINEERING INTERN | DIRECT SUPPLY | JUNE 2015 – MAY 2016
-                            </div>
-                            <div class="collapsible-body">
-                              <p class="white-text">
-                                Developed features on Direct Supply’s main .NET eCommerce platform. During Summer 2015, I participated in an intern project to develop a website for one of Direct Supply's supplier sites. This project was my favorite part of working at Direct Supply, as we got to start from scratch on our own project. I lead a small team that created the backend REST API for this project using Python and Django.
-                              </p>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="collapsible-header">
-                              IT INTERN | FAY SERVICING | MAY 2014 – AUGUST 2014
-                            </div>
-                            <div class="collapsible-body">
-                              <p class="white-text">
-                                My main responsibility at Fay was providing helpdesk support, but I also assisted with server management and various other IT responsibilities. Near the end of my internship I deployed a secure mobile app program which allowed the company to maintain internal devices. This position also provided a great learning opportunity for myself as my manager provide me time to learn about certain technologies or assisted me directly when available.
-                              </p>
-                            </div>
-                          </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    SOFTWARE ENGINEER | GOOGLE | MAY 2019 –
+                                    NOVEMBER 2020
+                                </div>
+                                <div class="collapsible-body">
+                                    <p class="white-text">
+                                        One of the primary contributors to BigQuery row-level security feature. My
+                                        primary areas of work were changes to interactions to Google Cloud’s IAM
+                                        service, but I also made changes to Google Cloud console front-end which was
+                                        using Angular, and lower layers such as Dremel internals.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    SOFTWARE ENGINEER | BRADY CORPORATION | AUGUST 2017 –
+                                    MAY 2019
+                                </div>
+                                <div class="collapsible-body">
+                                    <p class="white-text">
+                                        Contributor on a Cloud Based, Azure specifically, Inspection Management and
+                                        Asset Tracking platform which consisted of a mobile and web app. I added several
+                                        new services and features to the platform using Azure Functions, Service Bus,
+                                        Cosmos DB, and various other Azure features. Most of the application was written
+                                        in C#, Typescript, and Angular, but I also worked on independent projects using
+                                        React and Vue with NodeJS backend such as a configurable mock API designed for
+                                        easy client-side testing.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    SOFTWARE ENGINEERING INTERN | DIRECT SUPPLY | JUNE 2015 –
+                                    MAY 2016
+                                </div>
+                                <div class="collapsible-body">
+                                    <p class="white-text">
+                                        Contributor for Direct Supply’s main .NET eCommerce platform. During Summer
+                                        2015, I participated in an intern project to develop a website for one of Direct
+                                        Supply's supplier sites. This project was my favorite part of working at Direct
+                                        Supply, as we got to start from scratch on our own project. I lead a small team
+                                        that created the backend REST API for this project using Python and Django.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    IT INTERN | FAY SERVICING | MAY 2014 – AUGUST 2014
+                                </div>
+                                <div class="collapsible-body">
+                                    <p class="white-text">
+                                        My main responsibility at Fay was providing helpdesk
+                                        support, but I also assisted with server management and
+                                        various other IT responsibilities. Near the end of my
+                                        internship I deployed a secure mobile app program which
+                                        allowed the company to maintain internal devices. This
+                                        position also provided a great learning opportunity for
+                                        myself as my manager provide me time to learn about
+                                        certain technologies or assisted me directly when
+                                        available.
+                                    </p>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -185,36 +252,44 @@
                     <div class="card-content">
                         <span class="card-title white-text">Personal Projects</span>
                         <ul class="collapsible">
-                          <li>
-                            <div class="collapsible-header">
-                                <a href="https://github.com">Smart Console</a>
-                            </div>
-                            <div class="collapsible-body">
-                              <p class="white-text">
-                                  Smart Console Description
-                              </p>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="collapsible-header">
-                                <a href="https://github.com">Testing API</a>
-                            </div>
-                            <div class="collapsible-body">
-                              <p class="white-text">
-                                  Testing API Description
-                              </p>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="collapsible-header">
-                              <a href="https://github.com">FriendBot</a>
-                            </div>
-                            <div class="collapsible-body">
-                              <p class="white-text">
-                                  FriendBot Description
-                              </p>
-                            </div>
-                          </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    SMART CONSOLE
+                                </div>
+                                <div class="collapsible-body">
+                                    <p class="white-text">Using a small LED touchscreen and a Raspberry Pi, I developed
+                                        an app to allow controlling my apartment’s Philips Hue lights, display time and
+                                        weather. I am also working on trying to control the thermostat (through the Nest
+                                        API) and hook up moisture sensors to my plants to give a quick readout of which
+                                        plants need to be watered.</p>
+                                    <p><a href="https://github.com/Awkewainze/SmartConsole">Go to project on Github</a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    TESTING API
+                                </div>
+                                <div class="collapsible-body">
+                                    <p class="white-text">Built a simple API mocking tool that could be input with
+                                        configurable JSON to test various features, such as failing on first few calls
+                                        to try retry logic, or delaying a response to test timeouts. Allows for mocking
+                                        a single endpoint but then passing through every other call.</p>
+                                    <p class="white-text">This project is private, feel free to ask to see source code
+                                        though!</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    FRIENDBOT
+                                </div>
+                                <div class="collapsible-body">
+                                    <p class="white-text">A friendly Discord bot that was really for a fun project to do
+                                        among friends. Was good for teaching some friends how to program and use the
+                                        Discord API, as well as testing some Typescript techniques.</p>
+                                    <p><a href="https://github.com/Awkewainze/FriendBot">Go to project on Github</a></p>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -226,9 +301,9 @@
                 </div>
             </div>
             <div class="secondary col l4 s12">
-              <div class="card blue-grey darken-3 semi-transparent">
+                <div class="card blue-grey darken-3 semi-transparent">
                     <div class="card-content">
-                      <span class="card-title white-text">My Age</span>
+                        <span class="card-title white-text">My Age</span>
                         <p class="white-text" id="age">23</p>
                     </div>
                 </div>
@@ -248,17 +323,43 @@
                     <div class="card-content white-text">
                         <span class="card-title">Favorite Technologies</span>
                         <ul class="collection">
-                            <li class="collection-item">Linux (Favorite Distros: <a href="http://www.ubuntu.com/">Ubuntu</a>, <a href="https://www.kali.org/">Kali</a>, <a href="https://www.debian.org/">Debian</a>)</li>
-                            <li class="collection-item"><a href="https://www.microsoft.com/en-us/windows/">Windows</a></li>
-                            <li class="collection-item"><a href="https://www.meteor.com/">Meteor</a></li>
-                            <li class="collection-item"><a href="https://www.virtualbox.org/">VirtualBox</a></li>
-                            <li class="collection-item"><a href="https://www.docker.com/">Docker</a></li>
-                            <li class="collection-item"><a href="https://unity3d.com/">Unity (Game Engine)</a></li>
-                            <li class="collection-item"><a href="https://atom.io/">Atom</a></li>
-                            <li class="collection-item"><a href="https://code.visualstudio.com/">VSCode</a></li>
-                            <li class="collection-item"><a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a> (Particularly enjoy working with Azure Functions)</li>
-                            <li class="collection-item"><a href="https://angular.io/">Angular</a></li>
-                            <li class="collection-item"><a href="https://reactjs.org/">React</a></li>
+                            <li class="collection-item">
+                                Linux (Favorite Distros:
+                                <a href="http://www.ubuntu.com/">Ubuntu</a>,
+                                <a href="https://www.kali.org/">Kali</a>,
+                                <a href="https://www.debian.org/">Debian</a>)
+                            </li>
+                            <li class="collection-item">
+                                <a href="https://www.microsoft.com/en-us/windows/">Windows</a>
+                            </li>
+                            <li class="collection-item">
+                                <a href="https://www.meteor.com/">Meteor</a>
+                            </li>
+                            <li class="collection-item">
+                                <a href="https://www.virtualbox.org/">VirtualBox</a>
+                            </li>
+                            <li class="collection-item">
+                                <a href="https://www.docker.com/">Docker</a>
+                            </li>
+                            <li class="collection-item">
+                                <a href="https://unity3d.com/">Unity (Game Engine)</a>
+                            </li>
+                            <li class="collection-item">
+                                <a href="https://atom.io/">Atom</a>
+                            </li>
+                            <li class="collection-item">
+                                <a href="https://code.visualstudio.com/">VSCode</a>
+                            </li>
+                            <li class="collection-item">
+                                <a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a>
+                                (Particularly enjoy working with Azure Functions)
+                            </li>
+                            <li class="collection-item">
+                                <a href="https://angular.io/">Angular</a>
+                            </li>
+                            <li class="collection-item">
+                                <a href="https://reactjs.org/">React</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -288,23 +389,28 @@
         </div>
     </div>
 
-    <footer class="page-footer blue-grey darken-3 semi-transparent">
+    <footer class="page-footer blue-grey darken-4 semi-transparent">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">Contact Me</h5>
                     <p class="grey-text text-lighten-4">(Email is probably best way)</p>
                     <p class="grey-text text-lighten-4">Phone: (262) 327 0659</p>
-                    <p class="grey-text text-lighten-4">Email: <a href="mailto:nova@walseth.me" target="_top">nova@walseth.me</a></p>
+                    <p class="grey-text text-lighten-4">
+                        Email:
+                        <a href="mailto:nova@walseth.me" target="_top">nova@walseth.me</a>
+                    </p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
-                    <a href="http://facebook.walseth.me"><i class="fab fa-facebook-square fa-5x" aria-hidden="true"></i></a>
-                    <a href="http://linkedin.walseth.me"><i class="fab fa-linkedin fa-5x" aria-hidden="true"></i></a>
-                    <a href="http://google.walseth.me"><i class="fab fa-google-plus-square fa-5x" aria-hidden="true"></i></a>
-                    <a href="http://github.walseth.me"><i class="fab fa-github-square fa-5x" aria-hidden="true"></i></a>
-                    <!-- <a href="https://nova.walseth.me/blog"><i class="fab fa-blogger fa-5x" aria-hidden="true"></i></a> -->
-
+                    <a href="https://www.facebook.com/nova.walseth/"><i class="fab fa-facebook-square fa-5x"
+                            aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/NovaWalseth"><i class="fab fa-twitter-square fa-5x"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/nova-walseth-a0a8ab7b/"><i class="fab fa-linkedin fa-5x"
+                            aria-hidden="true"></i></a>
+                    <a href="https://github.com/Awkewainze"><i class="fab fa-github-square fa-5x"
+                            aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -315,14 +421,14 @@
     GitHubActivity.feed({
         username: "Awkewainze",
         selector: "#feed",
-        limit: 10
+        limit: 10,
     });
 
     function autoplay_carousel(selector, delay) {
-        var x = function() {
+        var x = function () {
             $(selector).carousel("next");
             setTimeout(x, delay);
-        }
+        };
         setTimeout(x, delay);
     }
 
@@ -337,17 +443,22 @@
         return RandomFactList[0];
     }
 
-    function autoplay_randomfacts(selector, fadeInTime, fadeOutTime, delayMultiplier) {
-        var x = function() {
-            $(selector).fadeOut(fadeOutTime, function() {
+    function autoplay_randomfacts(
+        selector,
+        fadeInTime,
+        fadeOutTime,
+        delayMultiplier
+    ) {
+        var x = function () {
+            $(selector).fadeOut(fadeOutTime, function () {
                 let text = getNextTextFromList();
                 let newDelay = text.split(" ").length * delayMultiplier;
                 $("#about-me-text").text(text);
-                $(selector).fadeIn(fadeInTime, function() {
+                $(selector).fadeIn(fadeInTime, function () {
                     setTimeout(x, newDelay);
-                })
-            })
-        }
+                });
+            });
+        };
         let originalText = $("#about-me-text").text();
         let delay = originalText.split(" ").length * delayMultiplier;
         setTimeout(x, delay);
@@ -367,12 +478,12 @@
         return array;
     }
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         RandomFactList = shuffleArray(RandomFactList);
         $("#about-me-text").text(RandomFactList[0]);
         autoplay_randomfacts("#about-me-area", 400, 400, 500);
-        $('.collapsible').collapsible();
-    })
+        $(".collapsible").collapsible();
+    });
 
     var RandomFactList = [
         "I am an Eagle Scout, I was part of Troop 380 (formerly Troop 343), my Eagle Project was to clear out brush at Bong State Recreation Area in Wisconsin",
@@ -382,8 +493,8 @@
         "I have made several mods for the video game Garry's Mod, my most popular one has 23k+ unique downloads",
         "I love to play tennis and will play it any time I get the chance",
         "I have Protanopia (Red-Green Color Blindness)",
-        "Regex is my guilty pleasure"
-    ]
+        "Regex is my guilty pleasure",
+    ];
 </script>
 
 </html>
