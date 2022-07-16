@@ -8,6 +8,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: Raleway;
+    margin: 0;
+    height: 100%;
 }
 
 .name {
@@ -62,6 +64,11 @@ body {
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.starField {
+    background: radial-gradient(ellipse at center, #242938, #000 100%);
+    display: none;
 }
