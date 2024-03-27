@@ -47,6 +47,7 @@ $(document).ready(function () {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+    return;
     const canvas = document.getElementById("starField");
     const c = canvas.getContext("2d");
     canvas.width = window.innerWidth;
