@@ -1,19 +1,10 @@
-.profile-pic {
-    /* filter: blur(1px); */
-}
-
 body {
-    background-image: url("../resources/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: Raleway;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     height: 100%;
 }
 
 .name {
-    font-family: Dancing Script;
     text-shadow: 1px 1px 1px black;
 }
 
