@@ -1,6 +1,0 @@
-[env]
-NODE_ENV = "production"
-
-[tasks.build]
-description = "Builds app for static serving (minified/no sourcemap)"
-run = "bun run build --minify --sourcemap=none"
